@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    text-align: center;
+}
+
+h1 {
+    color: #b30000;
+}
+
+.main {
+    padding: 20px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    
+}
+
+.producto {
+    background-color: #400000;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+h3 {
+    color: #fff;
+}
+
+p {
+    color: #ccc;
+}
+
+.producto-btn {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.producto-btn:hover {
+    background-color: #800000;
+}
+/* estilos del carrito*/
+.titulo {
+    color: #b30000;
+}
+
+.carrito {
+    background-color: #400000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+#carrito-vacio {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carrito-producto {
+    background-color: #800000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.carrito-producto:hover {
+    transform: translateY(-3px);
+}
+
+.carrito-producto h3 {
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.carrito-producto p {
+    color: #ccc;
+    margin-bottom: 5px;
+}
+
+.carrito-producto-btn {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carrito-producto-btn:hover {
+    background-color: #800000;
+}
+
+
+
+.carrito-producto-btn {
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carrito-producto-btn:hover {
+    background-color: #800000;
+}
+
+.carrito-total {
+    margin-top: 20px;
+    color: #fff;
+}
+
+#carrito-total {
+    color: #b30000;
+}
+
+.d-none{
+    display: none;
+}
